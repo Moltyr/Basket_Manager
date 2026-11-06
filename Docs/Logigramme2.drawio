@@ -1,0 +1,581 @@
+<mxfile host="65bd71144e">
+    <diagram id="mYUnos16J4Nw76U0EVrz" name="Page-1">
+        <mxGraphModel dx="1110" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="DA" parent="1" style="html=1;whiteSpace=nowrap;strokeWidth=1;verticalAlign=top;fillColor=#F0FDF4;strokeColor=#4ADE80;fontColor=#000000;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Jeu de données / initialisation" vertex="1">
+                    <mxGeometry height="529" width="402" x="2545" y="1643" as="geometry"/>
+                </mxCell>
+                <mxCell id="D1" parent="DA" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Initialisation, base de données existante ?" vertex="1">
+                    <mxGeometry height="208" width="208" x="97" y="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="D2" parent="DA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Charger les équipes, joueurs, postes, matchs et types de blessures" vertex="1">
+                    <mxGeometry height="129" width="152" x="24" y="397" as="geometry"/>
+                </mxCell>
+                <mxCell id="D3" parent="DA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Créer la base de données" vertex="1">
+                    <mxGeometry height="129" width="152" x="226" y="397" as="geometry"/>
+                </mxCell>
+                <mxCell id="eD1D2" edge="1" parent="DA" source="D1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.35;exitY=1;entryX=0.64;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="D2" value="Charger">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="170" y="286"/>
+                            <mxPoint x="143" y="286"/>
+                            <mxPoint x="143" y="367"/>
+                            <mxPoint x="122" y="367"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eD1D3" edge="1" parent="DA" source="D1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.65;exitY=1;entryX=0.36;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="D3" value="Créer">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="233" y="286"/>
+                            <mxPoint x="260" y="286"/>
+                            <mxPoint x="260" y="367"/>
+                            <mxPoint x="280" y="367"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MA" parent="1" style="html=1;whiteSpace=nowrap;strokeWidth=1;verticalAlign=top;fillColor=#ECFEFF;strokeColor=#22D3EE;fontColor=#000000;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Gestion des matchs de basket" vertex="1">
+                    <mxGeometry height="2100" width="572" x="1920" y="1643" as="geometry"/>
+                </mxCell>
+                <mxCell id="M1" parent="MA" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Action" vertex="1">
+                    <mxGeometry height="208" width="208" x="181" y="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="M2" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Choisir les 2 équipes (domicile / extérieur) + la date du match" vertex="1">
+                    <mxGeometry height="87" width="152" x="94" y="407" as="geometry"/>
+                </mxCell>
+                <mxCell id="M4" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Afficher les matchs déjà joués (score saisi)" vertex="1">
+                    <mxGeometry height="87" width="152" x="371" y="397" as="geometry"/>
+                </mxCell>
+                <mxCell id="M5" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Sélectionner 5 joueurs disponibles par équipe (hors joueurs blessés)" vertex="1">
+                    <mxGeometry height="108" width="152" x="94" y="524" as="geometry"/>
+                </mxCell>
+                <mxCell id="M9" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Composition validée (5 joueurs par équipe)" vertex="1">
+                    <mxGeometry height="67" width="152" x="94" y="662" as="geometry"/>
+                </mxCell>
+                <mxCell id="M10" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Executer le match" vertex="1">
+                    <mxGeometry height="67" width="152" x="94" y="759" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Entrer manuellement le score final" vertex="1">
+                    <mxGeometry height="87" width="152" x="94" y="856" as="geometry"/>
+                </mxCell>
+                <mxCell id="M3A" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Sélectionner un match planifié (sans score)" vertex="1">
+                    <mxGeometry height="67" width="152" x="371" y="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="M11" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Évaluer la performance de chaque joueur (note de 0 à 10)" vertex="1">
+                    <mxGeometry height="87" width="152" x="94" y="973" as="geometry"/>
+                </mxCell>
+                <mxCell id="M12" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Faire évoluer les compétences selon la note (vitesse, endurance, force, technique)" vertex="1">
+                    <mxGeometry height="108" width="152" x="94" y="1090" as="geometry"/>
+                </mxCell>
+                <mxCell id="M13" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Décrémenter les absences restantes des joueurs déjà blessés" vertex="1">
+                    <mxGeometry height="108" width="152" x="94" y="1228" as="geometry"/>
+                </mxCell>
+                <mxCell id="M6" parent="MA" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Blessure aléatoire ? (pour chaque joueur du match)" vertex="1">
+                    <mxGeometry height="208" width="208" x="66" y="1366" as="geometry"/>
+                </mxCell>
+                <mxCell id="M7" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Tirer au sort le type de blessure (légère ou grave)" vertex="1">
+                    <mxGeometry height="87" width="152" x="24" y="1646" as="geometry"/>
+                </mxCell>
+                <mxCell id="M8" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Marquer le joueur blessé : indisponible 1 match (légère) ou 3 matchs (grave)" vertex="1">
+                    <mxGeometry height="129" width="152" x="24" y="1763" as="geometry"/>
+                </mxCell>
+                <mxCell id="M14" parent="MA" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Enregistrer score + notes + évolution(s) + blessure(s)" vertex="1">
+                    <mxGeometry height="87" width="152" x="94" y="1970" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM1M2" edge="1" parent="MA" source="M1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.28;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="M2" value="Planifier un match">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="239" y="286"/>
+                            <mxPoint x="170" y="286"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eM1M3A" edge="1" parent="MA" source="M1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="M3A" value="Saisir le score">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="285" y="560"/>
+                            <mxPoint x="447" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eM1M4" edge="1" parent="MA" source="M1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.73;exitY=1;entryX=0.36;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="M4" value="Consulter l&#39;historique">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="332" y="286"/>
+                            <mxPoint x="403" y="286"/>
+                            <mxPoint x="403" y="367"/>
+                            <mxPoint x="426" y="367"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eM2M5" edge="1" parent="MA" source="M2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M5" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM5M9" edge="1" parent="MA" source="M5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M9" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM9M10" edge="1" parent="MA" source="M9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M10" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM10M3" edge="1" parent="MA" source="M10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M3" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM3AM3" edge="1" parent="MA" source="M3A" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M3" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="447" y="899.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eM3M11" edge="1" parent="MA" source="M3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M11" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM11M12" edge="1" parent="MA" source="M11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M12" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM12M13" edge="1" parent="MA" source="M12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M13" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM13M6" edge="1" parent="MA" source="M13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M6" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM6M7" edge="1" parent="MA" source="M6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.35;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="M7" value="Oui">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="138" y="1604"/>
+                            <mxPoint x="100" y="1604"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eM7M8" edge="1" parent="MA" source="M7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M8" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eM6M14" edge="1" parent="MA" source="M6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.65;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="M14" value="Non">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="201" y="1604"/>
+                            <mxPoint x="239" y="1604"/>
+                            <mxPoint x="239" y="1931"/>
+                            <mxPoint x="170" y="1931"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eM8M14" edge="1" parent="MA" source="M8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.25;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="M14" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="100" y="1931"/>
+                            <mxPoint x="132" y="1931"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="PO" parent="1" style="html=1;whiteSpace=nowrap;strokeWidth=1;verticalAlign=top;fillColor=#FFF7ED;strokeColor=#FB923C;fontColor=#000000;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Gestion des postes basket" vertex="1">
+                    <mxGeometry height="658" width="483" x="1410" y="1643" as="geometry"/>
+                </mxCell>
+                <mxCell id="JO" parent="1" style="html=1;whiteSpace=nowrap;strokeWidth=1;verticalAlign=top;fillColor=#F0FDFA;strokeColor=#2DD4BF;fontColor=#000000;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Gestion des joueurs" vertex="1">
+                    <mxGeometry height="1217" width="802" x="365" y="1643" as="geometry"/>
+                </mxCell>
+                <mxCell id="J1" parent="JO" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Action" vertex="1">
+                    <mxGeometry height="208" width="208" x="307" y="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="J2" parent="JO" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Saisir : nom, prénom, équipe&lt;div&gt;(non obligatoire), poste, vitesse, endurance, force, technique&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="129" width="152" x="461" y="409" as="geometry"/>
+                </mxCell>
+                <mxCell id="J3" parent="JO" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Sélectionner un joueur puis modifier" vertex="1">
+                    <mxGeometry height="87" width="152" x="162" y="659" as="geometry"/>
+                </mxCell>
+                <mxCell id="J4" parent="JO" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Sélectionner un joueur puis confirmer" vertex="1">
+                    <mxGeometry height="87" width="152" x="626" y="659" as="geometry"/>
+                </mxCell>
+                <mxCell id="J5" parent="JO" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Afficher la liste des joueurs" vertex="1">
+                    <mxGeometry height="67" width="152" x="49" y="409" as="geometry"/>
+                </mxCell>
+                <mxCell id="J6" parent="JO" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Poste basket compatible avec les compétences ?" vertex="1">
+                    <mxGeometry height="208" width="208" x="364" y="598" as="geometry"/>
+                </mxCell>
+                <mxCell id="J7" parent="JO" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Créer le joueur" vertex="1">
+                    <mxGeometry height="45" width="152" x="323" y="978" as="geometry"/>
+                </mxCell>
+                <mxCell id="J8" parent="JO" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Afficher message d&#39;erreur / corriger les données" vertex="1">
+                    <mxGeometry height="108" width="152" x="525" y="947" as="geometry"/>
+                </mxCell>
+                <mxCell id="J9" parent="JO" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Enregistrer les modifications" vertex="1">
+                    <mxGeometry height="67" width="152" x="223" y="1127" as="geometry"/>
+                </mxCell>
+                <mxCell id="eJ1J2" edge="1" parent="JO" source="J1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.59;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="J2" value="Créer">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="430" y="298"/>
+                            <mxPoint x="537" y="298"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ1J3" edge="1" parent="JO" source="J1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.41;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="J3" value="Modifier">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="393" y="298"/>
+                            <mxPoint x="238" y="298"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ1J4" edge="1" parent="JO" source="J1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.77;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="J4" value="Supprimer">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="467" y="286"/>
+                            <mxPoint x="702" y="286"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ1J5" edge="1" parent="JO" source="J1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.23;exitY=1;entryX=0.64;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="J5" value="Consulter">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="355" y="286"/>
+                            <mxPoint x="147" y="286"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ2J6" edge="1" parent="JO" source="J2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.36;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="J6" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="515" y="568"/>
+                            <mxPoint x="468" y="568"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ6J7" edge="1" parent="JO" source="J6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.35;exitY=1;entryX=0.5;entryY=0.01;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="J7" value="Oui">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="437" y="836"/>
+                            <mxPoint x="399" y="836"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ6J8" edge="1" parent="JO" source="J6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.65;exitY=1;entryX=0.35;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="J8" value="Non">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="499" y="836"/>
+                            <mxPoint x="558" y="836"/>
+                            <mxPoint x="558" y="917"/>
+                            <mxPoint x="579" y="917"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ3J9" edge="1" parent="JO" source="J3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=0.99;entryX=0.42;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="J9" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="238" y="1085"/>
+                            <mxPoint x="286" y="1085"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ4J9" edge="1" parent="JO" source="J4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=0.99;entryX=0.76;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="J9" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="702" y="1097"/>
+                            <mxPoint x="338" y="1097"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ7J9" edge="1" parent="JO" source="J7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.59;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="J9" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="399" y="1085"/>
+                            <mxPoint x="312" y="1085"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ8J2" edge="1" parent="JO" source="J8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.64;exitY=0;entryX=0.64;entryY=1;strokeWidth=2;targetPerimeterSpacing=4;" target="J2" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="622" y="568"/>
+                            <mxPoint x="559" y="568"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="EQ" parent="1" style="html=1;whiteSpace=nowrap;strokeWidth=1;verticalAlign=top;fillColor=#FDF4FF;strokeColor=#E879F9;fontColor=#000000;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Gestion des équipes" vertex="1">
+                    <mxGeometry height="1055" width="1096" x="1695" y="347" as="geometry"/>
+                </mxCell>
+                <mxCell id="C" parent="EQ" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Menu principal" vertex="1">
+                    <mxGeometry height="208" width="208" x="82" y="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="E1" parent="EQ" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Action" vertex="1">
+                    <mxGeometry height="208" width="208" x="568" y="445" as="geometry"/>
+                </mxCell>
+                <mxCell id="E2" parent="EQ" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Saisir : nom, ville et couleur de l&#39;équipe" vertex="1">
+                    <mxGeometry height="87" width="152" x="301" y="806" as="geometry"/>
+                </mxCell>
+                <mxCell id="E3" parent="EQ" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Sélectionner une équipe puis modifier" vertex="1">
+                    <mxGeometry height="87" width="152" x="503" y="806" as="geometry"/>
+                </mxCell>
+                <mxCell id="E4" parent="EQ" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Sélectionner une équipe puis confirmer" vertex="1">
+                    <mxGeometry height="87" width="152" x="705" y="806" as="geometry"/>
+                </mxCell>
+                <mxCell id="E5" parent="EQ" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Afficher la liste des équipes" vertex="1">
+                    <mxGeometry height="67" width="152" x="907" y="806" as="geometry"/>
+                </mxCell>
+                <mxCell id="E6" parent="EQ" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Enregistrer en base" vertex="1">
+                    <mxGeometry height="67" width="152" x="615" y="965" as="geometry"/>
+                </mxCell>
+                <mxCell id="eE1E2" edge="1" parent="EQ" source="E1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.23;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="E2" value="Créer">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="617" y="683"/>
+                            <mxPoint x="377" y="683"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eE1E3" edge="1" parent="EQ" source="E1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.41;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="E3" value="Modifier">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="654" y="695"/>
+                            <mxPoint x="579" y="695"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eE1E4" edge="1" parent="EQ" source="E1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.59;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="E4" value="Supprimer">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="691" y="695"/>
+                            <mxPoint x="781" y="695"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eE1E5" edge="1" parent="EQ" source="E1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.77;exitY=1;entryX=0.36;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="E5" value="Consulter">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="728" y="683"/>
+                            <mxPoint x="961" y="683"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eE2E6" edge="1" parent="EQ" source="E2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=0.99;entryX=0.24;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="E6" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="377" y="935"/>
+                            <mxPoint x="652" y="935"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eE3E6" edge="1" parent="EQ" source="E3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=0.99;entryX=0.41;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="E6" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="579" y="923"/>
+                            <mxPoint x="678" y="923"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eE4E6" edge="1" parent="EQ" source="E4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=0.99;entryX=0.59;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="E6" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="781" y="923"/>
+                            <mxPoint x="704" y="923"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eE5C" edge="1" parent="EQ" source="E5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.64;exitY=0;entryX=0.915;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="-0.0081" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1004.3" y="298"/>
+                            <mxPoint x="1005" y="170.9"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eE6C" edge="1" parent="EQ" source="E6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.76;exitY=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="-0.0003" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730.5" y="935"/>
+                            <mxPoint x="1071" y="935"/>
+                            <mxPoint x="1071" y="153"/>
+                            <mxPoint x="365" y="153"/>
+                            <mxPoint x="365" y="152"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eCE1" edge="1" parent="EQ" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.825;exitY=0.674;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="E1" value="Équipes">
+                    <mxGeometry relative="1" x="0.0041" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="335" y="188.2"/>
+                            <mxPoint x="335" y="310"/>
+                            <mxPoint x="672" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="A" parent="1" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Début" vertex="1">
+                    <mxGeometry height="45" width="171" x="1796" y="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="B" parent="1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Ouvrir l&#39;application &quot;Basket Manager&quot;" vertex="1">
+                    <mxGeometry height="108" width="152" x="1805" y="189" as="geometry"/>
+                </mxCell>
+                <mxCell id="Z" parent="1" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Fin" vertex="1">
+                    <mxGeometry height="45" width="171" x="1207" y="1643" as="geometry"/>
+                </mxCell>
+                <mxCell id="P2A" parent="1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Postes possibles : Meneur / Arrière / Ailier / Ailier fort / Pivot" vertex="1">
+                    <mxGeometry height="129" width="152" x="2007" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="P1" parent="1" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Action" vertex="1">
+                    <mxGeometry height="208" width="208" x="1540" y="1688" as="geometry"/>
+                </mxCell>
+                <mxCell id="P3" parent="1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Sélectionner un poste puis modifier" vertex="1">
+                    <mxGeometry height="87" width="152" x="1420" y="2049" as="geometry"/>
+                </mxCell>
+                <mxCell id="P5" parent="1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Afficher la liste des postes" vertex="1">
+                    <mxGeometry height="67" width="152" x="1694" y="2059" as="geometry"/>
+                </mxCell>
+                <mxCell id="P6" parent="1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" value="Enregistrer en base" vertex="1">
+                    <mxGeometry height="67" width="152" x="1568" y="2218" as="geometry"/>
+                </mxCell>
+                <mxCell id="eAB" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="B" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eBC" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="eCJ1" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.17;exitY=0.668;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="J1" value="Joueurs">
+                    <mxGeometry relative="1" x="0.4418" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1773" y="533.9"/>
+                            <mxPoint x="1773" y="1472"/>
+                            <mxPoint x="776" y="1472"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eCP1" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.318;exitY=0.819;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="P1" value="Postes basket">
+                    <mxGeometry relative="1" x="0.6107" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1815" y="565.4"/>
+                            <mxPoint x="1815" y="1512"/>
+                            <mxPoint x="1644" y="1512"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eCD1" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.678;exitY=0.824;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="D1" value="Jeu de données / initialisation">
+                    <mxGeometry relative="1" x="0.1144" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1962" y="566.4"/>
+                            <mxPoint x="1962" y="1452"/>
+                            <mxPoint x="2746" y="1452"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eCZ" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="Z" value="Quitter">
+                    <mxGeometry relative="1" x="0.4385" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1794" y="551"/>
+                            <mxPoint x="1794" y="1492"/>
+                            <mxPoint x="1292.5" y="1492"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eCM1" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.462;exitY=0.96;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="M1" value="Matchs">
+                    <mxGeometry relative="1" x="0.3683" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1873.1" y="1535"/>
+                            <mxPoint x="2240" y="1535"/>
+                            <mxPoint x="2240" y="1670"/>
+                            <mxPoint x="2205" y="1670"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ5C" edge="1" parent="1" source="J5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.36;exitY=0;entryX=0.077;entryY=0.576;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="-0.2487" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="468.7" y="1452"/>
+                            <mxPoint x="1752" y="1452"/>
+                            <mxPoint x="1752" y="514.8"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eJ9C" edge="1" parent="1" source="J9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.24;exitY=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="-0.1364" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="624.5" y="2740"/>
+                            <mxPoint x="320" y="2740"/>
+                            <mxPoint x="320" y="1432"/>
+                            <mxPoint x="1731" y="1432"/>
+                            <mxPoint x="1731" y="557.4"/>
+                            <mxPoint x="1730" y="557.4"/>
+                            <mxPoint x="1730" y="499"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eP5C" edge="1" parent="1" source="P5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.363;entryY=0.864;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="-0.0115" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1808" y="1532"/>
+                            <mxPoint x="1836" y="1532"/>
+                            <mxPoint x="1836" y="574.7"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eP6C" edge="1" parent="1" source="P6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.76;exitY=0;entryX=0.385;entryY=0.888;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="-0.172" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1683.5" y="2180"/>
+                            <mxPoint x="1857" y="2180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eM14C" edge="1" parent="1" source="M14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.8;exitY=0;entryX=0.58;entryY=1;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="-0.009" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2135.6" y="3600"/>
+                            <mxPoint x="2469" y="3600"/>
+                            <mxPoint x="2469" y="1492"/>
+                            <mxPoint x="1920" y="1492"/>
+                            <mxPoint x="1920" y="588.7"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eM4C" edge="1" parent="1" source="M4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.65;exitY=0;entryX=0.558;entryY=0.948;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="0.001" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2389.8" y="2010"/>
+                            <mxPoint x="2425" y="2010"/>
+                            <mxPoint x="2425" y="1512"/>
+                            <mxPoint x="1893.1" y="1512"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eD2C" edge="1" parent="1" source="D2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.36;exitY=0;entryX=0.639;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="0.0002" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2623.7" y="1633"/>
+                            <mxPoint x="2623" y="1613"/>
+                            <mxPoint x="2623" y="1472"/>
+                            <mxPoint x="1941" y="1472"/>
+                            <mxPoint x="1941" y="575.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eD3C" edge="1" parent="1" source="D3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.64;exitY=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;targetPerimeterSpacing=4;" target="C" value="">
+                    <mxGeometry relative="1" x="-0.0024" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2868" y="1432"/>
+                            <mxPoint x="1983" y="1432"/>
+                            <mxPoint x="1983" y="551"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eP1P3" edge="1" parent="1" source="P1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.397;exitY=0.901;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="P3" value="Modifier">
+                    <mxGeometry relative="1" x="0.3404" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1496" y="1875.4"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="eP3P6" edge="1" parent="1" source="P3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=0.99;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;targetPerimeterSpacing=4;" target="P6" value="">
+                    <mxGeometry relative="1" x="0.125" as="geometry"/>
+                </mxCell>
+                <mxCell id="eP1P5" edge="1" parent="1" source="P1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.594;exitY=0.912;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="P5" value="Consulter">
+                    <mxGeometry relative="1" x="0.1359" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1663.6" y="1876.4"/>
+                            <mxPoint x="1732" y="1876.4"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
